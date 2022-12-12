@@ -1,0 +1,106 @@
+@media screen and (max-width: 850px) {
+  body {
+    display: grid;
+    place-items: center;
+    height: 150vh;
+  }
+
+  * {
+    height: auto;
+    margin: 0;
+  }
+
+  main {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .a {
+    width: 100%;
+    padding: 20px 30px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .a div p:first-child {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .a div p:last-child {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .a img {
+    width: 20%;
+  }
+
+  .days {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 40px 15px 40px;
+    bottom: 0;
+  }
+
+  .days p {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 50px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+  }
+
+  section:nth-child(4),
+  section:nth-child(5),
+  section:nth-child(6) {
+    bottom: 0;
+  }
+
+  .cate {
+    position: relative;
+  }
+
+  .back {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+  }
+
+  .back img {
+    top: 0;
+    left: 100px;
+    right: 0;
+  }
+
+  .bottom {
+    flex-direction: row;
+  }
+
+  .bottom p:first-child {
+    font-size: 28px;
+  }
+
+  .bottom p:last-child {
+    align-self: center;
+  }
+}
